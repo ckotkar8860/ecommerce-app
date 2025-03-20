@@ -76,6 +76,16 @@ docker-compose up
 
 This will build the Docker image and start the application in a containerized environment.
 
+## Running with Gunicorn
+
+To run the application in the background using Gunicorn, use the following command:
+
+```
+gunicorn ecommerce.wsgi:application --bind 0.0.0.0:8000 --daemon
+```
+
+This will start the Gunicorn server and bind it to port 8000.
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
