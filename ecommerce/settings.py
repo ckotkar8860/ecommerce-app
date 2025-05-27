@@ -108,4 +108,9 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'ckecommercesite-fhb9c0ete8bdgjhg.eastasia-01.azurewebsites.net',
+    '127.0.0.1',  # (optional) for local testing
+    'localhost',  # (optional) for local testing
+]
+
